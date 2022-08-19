@@ -22,6 +22,7 @@
     max-width: 440px;
     text-align: center;
     padding: 50px 35px;
+    /* glass effect */
     border: 1px solid rgba(255, 255, 255, 0.3);
     background: rgba(255, 255, 255, 0.2) ;
     border-radius: 16px;
@@ -29,8 +30,9 @@
     backdrop-filter: blur(5px);
 } 
 
-.card img{
+.card .ppimage{
     width: 185px;
+    border: 3px solid #50b8ae;
     border-radius: 9999px ;
 }
 
@@ -57,5 +59,5 @@
 }
 
 .card .links img:hover{
-    background: #86e2b4;
+    background: #50b8ae;
 }
